@@ -1,0 +1,51 @@
+/* components/ShowDetails.css */
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: #000 url('../../assets/pic2.jpg') center/cover no-repeat fixed;
+    color: #fff;
+    height: 100vh;
+    overflow: hidden/* Make the background cover the entire viewport height */
+}
+
+.overlay {
+    margin: auto;
+    margin-top: 10%;
+    width: 60%;
+    height: 80%;
+    background: rgba(170, 180, 210, 0.2); /* Adjust the RGBA values for a greyish color */
+    display: flex;
+    /*flex-direction: column;*/
+    align-items: center;
+    justify-content: space-evenly;
+    border-radius: 40px;
+}
+
+.container {
+    max-width: 800px;
+    padding: 20px;
+
+    gap: 5px;
+    text-align: center;
+}
+
+h1, p, strong {
+    color: #000;
+    font-size:16px;
+}
+
+.button {
+    background-color: #3498db;
+    color: #fff;
+    padding: 10px 15px;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    margin-top: 20px;
+}
+
+.button:hover {
+    background-color: #2980b9;
+}
